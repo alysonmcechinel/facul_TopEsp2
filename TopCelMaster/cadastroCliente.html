@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="cadastroCliente.css" />
+<title>Cadatro Cliente</title>
+</head>
+<body>
+	
+	<header><span class="title">Cadastro de Clientes</span></header>
+
+    <form action="ClienteServelet" method="post">
+      <div class="div-form">
+        <div>
+          <span>Nome</span>: <br /><input type="text" name="nome" required />
+          <br />
+          <span class="span">Email</span>: <br /><input type="email" name="email" required />
+          <br />
+        </div>
+        <div>
+          <span>Cidade</span>: <br /><input
+            type="text"
+            name="cidade"
+            required
+          />
+          <br />
+          <span class="span">Telefone</span>: <br /><input
+            type="number"
+            name="telefone"
+            required
+          />
+          <br />
+        </div>
+      </div>
+      <div class="div-button">
+        <button class="button" type="submit">Enviar</button>
+        <a href="homePage.html">Voltar</a>
+      </div>
+    </form>
+    
+</body>
+</html>

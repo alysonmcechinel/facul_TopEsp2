@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.menu {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.menu-item {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
